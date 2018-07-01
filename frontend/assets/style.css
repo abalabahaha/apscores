@@ -1,0 +1,10 @@
+.drawdown-enter-active, .drawdown-leave-active {
+  transition: all 1s;
+  max-height: auto;
+}
+.drawdown-enter, .drawdown-leave-to {
+  opacity: 0;
+  max-height: 0px;
+  overflow: hidden;
+  padding: 0;
+}

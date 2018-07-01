@@ -1,0 +1,36 @@
+{
+  "name": "apscores",
+  "version": "0.0.0",
+  "description": "A nicer AP score frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --opts .mocharc.opts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abalabahaha/apscores.git"
+  },
+  "author": "abalabahaha",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/abalabahaha/apscores/issues"
+  },
+  "homepage": "https://github.com/abalabahaha/apscores#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "aes256": "^1.0.3",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "koa": "^2.5.1",
+    "koa-body": "^4.0.3",
+    "koa-router": "^7.4.0",
+    "koa2-ratelimit": "^0.6.1",
+    "koa2-validator": "^1.1.0",
+    "tough-cookie": "^2.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nock": "^9.3.2"
+  }
+}
